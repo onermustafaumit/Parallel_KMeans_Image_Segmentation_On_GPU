@@ -1,0 +1,40 @@
+﻿Build started 20.05.2015 23:02:21.
+     1>Project "C:\Users\Balista Elektronik\Dropbox\Akademik\2015-Spring\GATE713\project\k_means_cpu\k_means_cpu.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\k_means_cpu.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\opencv\build\include /ZI /nologo /W3 /WX- /Od /Oy- /D "WIN32" /D _DEBUG /D _CONSOLE /D "_UNICODE" /D "UNICODE" /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\k_means_cpu.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\opencv\build\include /ZI /nologo /W3 /WX- /Od /Oy- /D "WIN32" /D _DEBUG /D _CONSOLE /D "_UNICODE" /D "UNICODE" /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\k_means_cpu.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt k_means_cpu.cpp
+         k_means_cpu.cpp
+     1>c:\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\balista elektronik\dropbox\akademik\2015-spring\gate713\project\k_means_cpu\k_means_cpu.cpp(62): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>c:\users\balista elektronik\dropbox\akademik\2015-spring\gate713\project\k_means_cpu\k_means_cpu.cpp(63): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>c:\users\balista elektronik\dropbox\akademik\2015-spring\gate713\project\k_means_cpu\k_means_cpu.cpp(64): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>c:\users\balista elektronik\dropbox\akademik\2015-spring\gate713\project\k_means_cpu\k_means_cpu.cpp(117): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\balista elektronik\dropbox\akademik\2015-spring\gate713\project\k_means_cpu\k_means_cpu.cpp(135): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>c:\users\balista elektronik\dropbox\akademik\2015-spring\gate713\project\k_means_cpu\k_means_cpu.cpp(136): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>c:\users\balista elektronik\dropbox\akademik\2015-spring\gate713\project\k_means_cpu\k_means_cpu.cpp(137): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\k_means_cpu.exe.embed.manifest.res" Debug\k_means_cpu_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Balista Elektronik\Dropbox\Akademik\2015-Spring\GATE713\project\k_means_cpu\Debug\k_means_cpu.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\opencv\build\x86\vc10\lib opencv_core2410d.lib opencv_imgproc2410d.lib opencv_highgui2410d.lib opencv_ml2410d.lib opencv_video2410d.lib opencv_features2d2410d.lib opencv_calib3d2410d.lib opencv_objdetect2410d.lib opencv_contrib2410d.lib opencv_legacy2410d.lib opencv_flann2410d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\k_means_cpu.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Balista Elektronik\Dropbox\Akademik\2015-Spring\GATE713\project\k_means_cpu\Debug\k_means_cpu.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Balista Elektronik\Dropbox\Akademik\2015-Spring\GATE713\project\k_means_cpu\Debug\k_means_cpu.lib" /MACHINE:X86 Debug\k_means_cpu.exe.embed.manifest.res
+         Debug\k_means_cpu.obj
+         Debug\stdafx.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\k_means_cpu.exe.embed.manifest" /manifest Debug\k_means_cpu.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\k_means_cpu.exe.embed.manifest.res" Debug\k_means_cpu_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Balista Elektronik\Dropbox\Akademik\2015-Spring\GATE713\project\k_means_cpu\Debug\k_means_cpu.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\opencv\build\x86\vc10\lib opencv_core2410d.lib opencv_imgproc2410d.lib opencv_highgui2410d.lib opencv_ml2410d.lib opencv_video2410d.lib opencv_features2d2410d.lib opencv_calib3d2410d.lib opencv_objdetect2410d.lib opencv_contrib2410d.lib opencv_legacy2410d.lib opencv_flann2410d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\k_means_cpu.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Balista Elektronik\Dropbox\Akademik\2015-Spring\GATE713\project\k_means_cpu\Debug\k_means_cpu.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Balista Elektronik\Dropbox\Akademik\2015-Spring\GATE713\project\k_means_cpu\Debug\k_means_cpu.lib" /MACHINE:X86 Debug\k_means_cpu.exe.embed.manifest.res
+         Debug\k_means_cpu.obj
+         Debug\stdafx.obj
+         k_means_cpu.vcxproj -> C:\Users\Balista Elektronik\Dropbox\Akademik\2015-Spring\GATE713\project\k_means_cpu\Debug\k_means_cpu.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\k_means_cpu.unsuccessfulbuild".
+         Touching "Debug\k_means_cpu.lastbuildstate".
+     1>Done Building Project "C:\Users\Balista Elektronik\Dropbox\Akademik\2015-Spring\GATE713\project\k_means_cpu\k_means_cpu.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.55
