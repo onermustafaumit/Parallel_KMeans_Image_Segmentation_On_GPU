@@ -1,6 +1,7 @@
 # Parallel_KMeans_Image_Segmentation_On_GPU
 
 Code provided by Mustafa Ümit ÖNER - June 2015
+
 Permission is granted for anyone to copy, use, modify, or distribute 
 this program and accompanying programs and documents for any purpose, 
 provided this copyright notice is retained and prominently displayed, 
